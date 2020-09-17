@@ -1,1 +1,1 @@
-web: ui5 serve -p 26295
+web: ui5 serve -p process.env.PORT
