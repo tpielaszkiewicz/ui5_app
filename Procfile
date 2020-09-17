@@ -1,0 +1,1 @@
+web: ui5 serve -o

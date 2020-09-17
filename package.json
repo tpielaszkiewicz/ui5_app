@@ -20,13 +20,30 @@
     "@openui5/themelib_sap_fiori_3": "^1.73.1"
   },
   "devDependencies": {
-    "@ui5/cli": "^1.12.1",
+    "@ui5/cli": "^1.12.2",
+    "@ui5/webcomponents": "^1.0.0-rc.7",
     "eslint": "^5.16.0",
+    "grunt": "^1.0.4",
+    "gulp": "^4.0.2",
     "karma": "^4.4.1",
     "karma-chrome-launcher": "^3.1.0",
     "karma-coverage": "^2.0.1",
     "karma-ui5": "^1.1.0",
     "local-web-server": "^3.0.7",
     "rimraf": "^3.0.0"
-  }
+  },
+  "main": "karma-ci.conf.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tpielaszkiewicz/ui5_app.git"
+  },
+  "engines": {
+    "node": "12.18.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tpielaszkiewicz/ui5_app/issues"
+  },
+  "homepage": "https://github.com/tpielaszkiewicz/ui5_app#readme"
 }
