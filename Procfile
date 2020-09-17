@@ -1,1 +1,1 @@
-web: ui5 serve -o
+web: ui5 serve
