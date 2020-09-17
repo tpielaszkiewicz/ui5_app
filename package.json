@@ -38,7 +38,7 @@
     "url": "git+https://github.com/tpielaszkiewicz/ui5_app.git"
   },
   "engines": {
-    "node": "12.18.0"
+    "node": "10.18.0"
   },
   "author": "",
   "license": "ISC",
