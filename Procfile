@@ -1,1 +1,1 @@
-web: ui5 serve
+web: ui5 serve -p 26295
