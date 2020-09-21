@@ -4,7 +4,7 @@
   "description": "Sample of an OpenUI5 app",
   "private": true,
   "scripts": {
-    "start": "node startscript.js",
+    "start": "ui5 serve",
     "lint": "eslint webapp",
     "karma": "karma start",
     "karma-ci": "rimraf coverage && karma start karma-ci.conf.js",
