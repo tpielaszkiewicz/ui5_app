@@ -4,7 +4,7 @@
   "description": "Sample of an OpenUI5 app",
   "private": true,
   "scripts": {
-    "start": "node startscript.js",
+    "start": "ui5 serve",
     "build": "ui5 build -a --clean-dest",
     "build-self-contained": "ui5 build self-contained -a --clean-dest",
     "serve-dist": "ws --compress -d dist"
