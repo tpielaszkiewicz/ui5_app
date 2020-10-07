@@ -15,8 +15,10 @@ app.use(bodyParser.json());
 
 // parse requests of content-type - application/x-www-form-urlencoded
 app.use(bodyParser.urlencoded({ extended: true }));
-
-app.use('/staticAssets', express.static(__dirname + '/dist'));
+app.get("/", (req, res) => {
+    res.json({ message: "Welcome to ui5 server." });
+  });
+app.use('/ui5App', express.static(__dirname + '/dist'));
 
 // set port, listen for requests
 const PORT = process.env.PORT || 8080;
