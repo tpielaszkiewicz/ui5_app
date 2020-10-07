@@ -13,11 +13,21 @@ var exec = require('child-process-promise').exec;
 //     }
 //     console.log(`stdout: ${stdout}`);
 // });
-console.log("Building the ui5");
-exec(`npm run ui5-build`).then(function (result) {
-    console.log("Start server");
-    exec("npm run server-start");
-})
-.catch(function (err) {
-    console.error('ERROR: ', err);
-});
+
+
+// console.log("Building the ui5");
+// exec(`npm run ui5-build`).then(function (result) {
+//     console.log("Start server");
+//     exec("npm run server-start");
+// })
+// .catch(function (err) {
+//     console.error('ERROR: ', err);
+// });
+
+
+exec(`npm run server-start`).then(function (result) {
+        console.log("Server started");
+    })
+    .catch(function (err) {
+        console.error('ERROR: ', err);
+    });

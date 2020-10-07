@@ -5,8 +5,7 @@
   "private": true,
   "scripts": {
     "ui5-build": "ui5 build --all",
-    "server-start": "node server.js",
-    "start": "node startscript.js"
+    "start": "node server.js"
   },
   "dependencies": {
     "@openui5/sap.m": "^1.73.1",
