@@ -14,6 +14,7 @@
     "@openui5/sap.m": "^1.73.1",
     "@openui5/sap.ui.core": "^1.73.1",
     "@openui5/themelib_sap_fiori_3": "^1.73.1",
+    "child-process-promise": "^2.2.1",
     "child_process": "^1.0.2",
     "timezone": "^1.0.23"
   },
